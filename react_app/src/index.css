@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1{
+    font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  color: #000;
+}
+
+.navigation {
+  background-color: #e9e9e9;
+  border: none;
+}
+
+.welcome {
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.doctor-card {
+    background-color: #484848;
+    max-width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    height: 300px;
+}
