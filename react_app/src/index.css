@@ -4,8 +4,8 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-h1{
-    font-weight: 600;
+h1 {
+  font-weight: 600;
 }
 
 a {
@@ -35,9 +35,107 @@ a {
 }
 
 .doctor-card {
-    background-color: #484848;
-    max-width: 350px;
-    border-radius: 10px;
-    padding: 20px;
-    height: 300px;
+  background-color: #484848;
+  max-width: 300px;
+  min-width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  height: 300px;
+  color: #fff;
+}
+
+.Content-box {
+  color: #000;
+  background-color: #d9d9d9;
+  border-radius: 7px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fit {
+  width: fit-content;
+}
+
+.doctor-card p {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.doctor-card h2 {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 0;
+}
+
+form {
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: auto;
+  /* transform: translate(0px, 40%); */
+  filter: drop-shadow(0px 0px 10px #00000053);
+}
+
+legend {
+  text-align: center;
+  font-weight: 600;
+  margin: 30px 0px 30px 0px;
+}
+
+.appointment-bar {
+  background-color: #fcb643;
+  font-weight: 600;
+  font-size: larger;
+  border-radius: 7px;
+  padding-left: 30px;
+  margin: 10px 0 10px 0;
+  width: 100%;
+}
+
+.appointment-details {
+  display: none;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.appointment-details p {
+  font-size: 10pt;
+}
+
+.appointment-bar:hover > .appointment-details {
+  cursor: pointer;
+  display: block;
+  z-index: 10;
+  position: absolute;
+  filter: drop-shadow(0px 0px 10px #00000053);
+}
+
+.profile-wrap{
+  width: 100vw;
+  height: 90vh;
+  background-size: 1300px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.profile-details{
+  position: relative;
+  background-color: #ffffff;
+  max-width: 600px;
+  padding: 3rem;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 10px #00000042);
+  margin: auto;
+  top: 20%;
+}
+
+.topic{
+  font-weight: 700;
 }

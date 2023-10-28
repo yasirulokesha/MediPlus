@@ -1,5 +1,4 @@
 import React from 'react'
-import { LinkButton } from './MainComponents'
 
 export default function Navigation() {
     const username = localStorage.getItem("username");
@@ -13,6 +12,7 @@ export default function Navigation() {
                         <a href="/appointments">Appointments</a>
                         <a href="/doctors">Doctors</a>
                         <a href="/about">About Us</a>
+                        <a href="/profile">Profile</a>
                     </div>
                     {username ? (
                         <a className="btn btn-primary" href="/login" role="button">Log In</a>
