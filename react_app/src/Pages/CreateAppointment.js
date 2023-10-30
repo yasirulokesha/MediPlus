@@ -16,14 +16,14 @@ export default function CreateAppointment(props) {
             }}>
             <form style={{ transform: 'translate(0px, 50%)' }} action="/login" method='POST'>
 
-                <legend>Assign to a Doctor</legend>
+                <legend>Create Appointment</legend>
                 <h5>Problem Statement</h5>
-                <textarea className='input-group' type="text" class="form-control" placeholder="Problem" aria-describedby="basic-addon1"></textarea>
+                <textarea className='input-group form-control' type="text" placeholder="Problem" aria-describedby="basic-addon1"></textarea>
                 <br />
 
                 <div className='d-flex align-items-center'>
                     <h5 className='col-3'>Date</h5>
-                    <input type='date' className='input-group' class="form-control" />
+                    <input type='date' className='input-group form-control' />
                 </div>
                 <br/>
                 <div className='d-flex align-items-center'>
@@ -35,8 +35,8 @@ export default function CreateAppointment(props) {
                 </div>
 
                 <div class="d-flex gap-2 mt-5">
-                    <a type="button" href="/profile" class="btn btn-primary">Back</a>
-                    <button type="submit" name="submit" class="btn btn-success">Submit</button>
+                    <a type="button" href="/profile" className="btn btn-primary">Back</a>
+                    <button type="submit" name="submit" className="btn btn-success">Submit</button>
                 </div>
             </form>
         </div>
